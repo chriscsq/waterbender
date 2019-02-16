@@ -18,29 +18,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOx-AJ-uko">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOx-AJ-uko" userLabel="monthly-button">
                                 <rect key="frame" x="123" y="149" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="raindrop (2).png">
+                                <state key="normal" image="raindrop - large">
                                     <color key="titleColor" red="0.43506543795675601" green="0.61931467782586502" blue="0.83193005181347157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWZ-0d-8eT">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWZ-0d-8eT" userLabel="weekly-button">
                                 <rect key="frame" x="276" y="402" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="raindrop (1).png">
+                                <state key="normal" image="raindrop - small">
                                     <color key="titleColor" red="0.45810852149999998" green="0.67413848639999996" blue="0.83193005180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Iv-Oe-egx">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Iv-Oe-egx" userLabel="daily-button">
                                 <rect key="frame" x="89" y="402" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="raindrop (1).png">
+                                <state key="normal" image="raindrop - small">
                                     <color key="titleColor" red="0.45810852146021941" green="0.67413848642619789" blue="0.83193005181347157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="monthly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NB2-dH-idJ">
-                                <rect key="frame" x="156" y="285" width="62" height="21"/>
+                                <rect key="frame" x="157" y="285" width="62" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.45810852149999998" green="0.67413848639999996" blue="0.83193005180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -70,7 +70,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="raindrop (1).png" width="32" height="32"/>
-        <image name="raindrop (2).png" width="128" height="128"/>
+        <image name="raindrop - large" width="128" height="128"/>
+        <image name="raindrop - small" width="32" height="32"/>
     </resources>
 </document>

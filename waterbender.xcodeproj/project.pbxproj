@@ -15,15 +15,6 @@
 		52E2557E2218C1F500849E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E2557C2218C1F500849E5B /* LaunchScreen.storyboard */; };
 		52E255892218C1F600849E5B /* waterbenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255882218C1F600849E5B /* waterbenderTests.swift */; };
 		52E255942218C1F600849E5B /* waterbenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255932218C1F600849E5B /* waterbenderUITests.swift */; };
-		52E255A82218CE3200849E5B /* raindrop (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 52E255A72218CE3200849E5B /* raindrop (1).png */; };
-		52E255A92218CE3200849E5B /* raindrop (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 52E255A72218CE3200849E5B /* raindrop (1).png */; };
-		52E255AA2218CE3200849E5B /* raindrop (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 52E255A72218CE3200849E5B /* raindrop (1).png */; };
-		52E255AC2218CEA500849E5B /* raindrop (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 52E255AB2218CEA500849E5B /* raindrop (2).png */; };
-		52E255AD2218CEA500849E5B /* raindrop (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 52E255AB2218CEA500849E5B /* raindrop (2).png */; };
-		52E255AE2218CEA500849E5B /* raindrop (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 52E255AB2218CEA500849E5B /* raindrop (2).png */; };
-		52E255B02218D35D00849E5B /* sea.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E255AF2218D35D00849E5B /* sea.png */; };
-		52E255B12218D35D00849E5B /* sea.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E255AF2218D35D00849E5B /* sea.png */; };
-		52E255B22218D35D00849E5B /* sea.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E255AF2218D35D00849E5B /* sea.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,10 +49,6 @@
 		52E2558F2218C1F600849E5B /* waterbenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterbenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E255932218C1F600849E5B /* waterbenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterbenderUITests.swift; sourceTree = "<group>"; };
 		52E255952218C1F600849E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52E255A62218CE0200849E5B /* raindrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raindrop.png; sourceTree = "<group>"; };
-		52E255A72218CE3200849E5B /* raindrop (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "raindrop (1).png"; path = "../../../Downloads/raindrop (1).png"; sourceTree = "<group>"; };
-		52E255AB2218CEA500849E5B /* raindrop (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "raindrop (2).png"; path = "../../../Downloads/raindrop (2).png"; sourceTree = "<group>"; };
-		52E255AF2218D35D00849E5B /* sea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sea.png; path = ../../../Downloads/sea.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +79,6 @@
 		52E255642218C1F400849E5B = {
 			isa = PBXGroup;
 			children = (
-				52E255A12218CD8D00849E5B /* Images */,
 				52E2556F2218C1F400849E5B /* waterbender */,
 				52E255872218C1F600849E5B /* waterbenderTests */,
 				52E255922218C1F600849E5B /* waterbenderUITests */,
@@ -140,17 +126,6 @@
 				52E255952218C1F600849E5B /* Info.plist */,
 			);
 			path = waterbenderUITests;
-			sourceTree = "<group>";
-		};
-		52E255A12218CD8D00849E5B /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				52E255AB2218CEA500849E5B /* raindrop (2).png */,
-				52E255A72218CE3200849E5B /* raindrop (1).png */,
-				52E255AF2218D35D00849E5B /* sea.png */,
-				52E255A62218CE0200849E5B /* raindrop.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,11 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E255A82218CE3200849E5B /* raindrop (1).png in Resources */,
 				52E2557E2218C1F500849E5B /* LaunchScreen.storyboard in Resources */,
 				52E2557B2218C1F500849E5B /* Assets.xcassets in Resources */,
-				52E255B02218D35D00849E5B /* sea.png in Resources */,
-				52E255AC2218CEA500849E5B /* raindrop (2).png in Resources */,
 				52E255762218C1F400849E5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +242,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E255B12218D35D00849E5B /* sea.png in Resources */,
-				52E255A92218CE3200849E5B /* raindrop (1).png in Resources */,
-				52E255AD2218CEA500849E5B /* raindrop (2).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +249,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E255B22218D35D00849E5B /* sea.png in Resources */,
-				52E255AA2218CE3200849E5B /* raindrop (1).png in Resources */,
-				52E255AE2218CEA500849E5B /* raindrop (2).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
