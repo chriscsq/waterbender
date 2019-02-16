@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52E255712218C1F400849E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255702218C1F400849E5B /* AppDelegate.swift */; };
+		52E255732218C1F400849E5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255722218C1F400849E5B /* ViewController.swift */; };
+		52E255762218C1F400849E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E255742218C1F400849E5B /* Main.storyboard */; };
+		52E255792218C1F400849E5B /* waterbender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52E255772218C1F400849E5B /* waterbender.xcdatamodeld */; };
+		52E2557B2218C1F500849E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E2557A2218C1F500849E5B /* Assets.xcassets */; };
+		52E2557E2218C1F500849E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E2557C2218C1F500849E5B /* LaunchScreen.storyboard */; };
+		52E255892218C1F600849E5B /* waterbenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255882218C1F600849E5B /* waterbenderTests.swift */; };
+		52E255942218C1F600849E5B /* waterbenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255932218C1F600849E5B /* waterbenderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52E255852218C1F600849E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E255652218C1F400849E5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E2556C2218C1F400849E5B;
+			remoteInfo = waterbender;
+		};
+		52E255902218C1F600849E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E255652218C1F400849E5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E2556C2218C1F400849E5B;
+			remoteInfo = waterbender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52E2556D2218C1F400849E5B /* waterbender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterbender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E255702218C1F400849E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52E255722218C1F400849E5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52E255752218C1F400849E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52E255782218C1F400849E5B /* waterbender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = waterbender.xcdatamodel; sourceTree = "<group>"; };
+		52E2557A2218C1F500849E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52E2557D2218C1F500849E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52E2557F2218C1F500849E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E255842218C1F600849E5B /* waterbenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterbenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E255882218C1F600849E5B /* waterbenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterbenderTests.swift; sourceTree = "<group>"; };
+		52E2558A2218C1F600849E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E2558F2218C1F600849E5B /* waterbenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterbenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E255932218C1F600849E5B /* waterbenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterbenderUITests.swift; sourceTree = "<group>"; };
+		52E255952218C1F600849E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E2556A2218C1F400849E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E255812218C1F600849E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E2558C2218C1F600849E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52E255642218C1F400849E5B = {
+			isa = PBXGroup;
+			children = (
+				52E2556F2218C1F400849E5B /* waterbender */,
+				52E255872218C1F600849E5B /* waterbenderTests */,
+				52E255922218C1F600849E5B /* waterbenderUITests */,
+				52E2556E2218C1F400849E5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52E2556E2218C1F400849E5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E2556D2218C1F400849E5B /* waterbender.app */,
+				52E255842218C1F600849E5B /* waterbenderTests.xctest */,
+				52E2558F2218C1F600849E5B /* waterbenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52E2556F2218C1F400849E5B /* waterbender */ = {
+			isa = PBXGroup;
+			children = (
+				52E255702218C1F400849E5B /* AppDelegate.swift */,
+				52E255722218C1F400849E5B /* ViewController.swift */,
+				52E255742218C1F400849E5B /* Main.storyboard */,
+				52E2557A2218C1F500849E5B /* Assets.xcassets */,
+				52E2557C2218C1F500849E5B /* LaunchScreen.storyboard */,
+				52E2557F2218C1F500849E5B /* Info.plist */,
+				52E255772218C1F400849E5B /* waterbender.xcdatamodeld */,
+			);
+			path = waterbender;
+			sourceTree = "<group>";
+		};
+		52E255872218C1F600849E5B /* waterbenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				52E255882218C1F600849E5B /* waterbenderTests.swift */,
+				52E2558A2218C1F600849E5B /* Info.plist */,
+			);
+			path = waterbenderTests;
+			sourceTree = "<group>";
+		};
+		52E255922218C1F600849E5B /* waterbenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52E255932218C1F600849E5B /* waterbenderUITests.swift */,
+				52E255952218C1F600849E5B /* Info.plist */,
+			);
+			path = waterbenderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E2556C2218C1F400849E5B /* waterbender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E255982218C1F600849E5B /* Build configuration list for PBXNativeTarget "waterbender" */;
+			buildPhases = (
+				52E255692218C1F400849E5B /* Sources */,
+				52E2556A2218C1F400849E5B /* Frameworks */,
+				52E2556B2218C1F400849E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waterbender;
+			productName = waterbender;
+			productReference = 52E2556D2218C1F400849E5B /* waterbender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52E255832218C1F600849E5B /* waterbenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E2559B2218C1F600849E5B /* Build configuration list for PBXNativeTarget "waterbenderTests" */;
+			buildPhases = (
+				52E255802218C1F600849E5B /* Sources */,
+				52E255812218C1F600849E5B /* Frameworks */,
+				52E255822218C1F600849E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E255862218C1F600849E5B /* PBXTargetDependency */,
+			);
+			name = waterbenderTests;
+			productName = waterbenderTests;
+			productReference = 52E255842218C1F600849E5B /* waterbenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52E2558E2218C1F600849E5B /* waterbenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E2559E2218C1F600849E5B /* Build configuration list for PBXNativeTarget "waterbenderUITests" */;
+			buildPhases = (
+				52E2558B2218C1F600849E5B /* Sources */,
+				52E2558C2218C1F600849E5B /* Frameworks */,
+				52E2558D2218C1F600849E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E255912218C1F600849E5B /* PBXTargetDependency */,
+			);
+			name = waterbenderUITests;
+			productName = waterbenderUITests;
+			productReference = 52E2558F2218C1F600849E5B /* waterbenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52E255652218C1F400849E5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = bigheartsmallbrain;
+				TargetAttributes = {
+					52E2556C2218C1F400849E5B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					52E255832218C1F600849E5B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 52E2556C2218C1F400849E5B;
+					};
+					52E2558E2218C1F600849E5B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 52E2556C2218C1F400849E5B;
+					};
+				};
+			};
+			buildConfigurationList = 52E255682218C1F400849E5B /* Build configuration list for PBXProject "waterbender" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52E255642218C1F400849E5B;
+			productRefGroup = 52E2556E2218C1F400849E5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E2556C2218C1F400849E5B /* waterbender */,
+				52E255832218C1F600849E5B /* waterbenderTests */,
+				52E2558E2218C1F600849E5B /* waterbenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E2556B2218C1F400849E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E2557E2218C1F500849E5B /* LaunchScreen.storyboard in Resources */,
+				52E2557B2218C1F500849E5B /* Assets.xcassets in Resources */,
+				52E255762218C1F400849E5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E255822218C1F600849E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E2558D2218C1F600849E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E255692218C1F400849E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E255732218C1F400849E5B /* ViewController.swift in Sources */,
+				52E255712218C1F400849E5B /* AppDelegate.swift in Sources */,
+				52E255792218C1F400849E5B /* waterbender.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E255802218C1F600849E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E255892218C1F600849E5B /* waterbenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E2558B2218C1F600849E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E255942218C1F600849E5B /* waterbenderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52E255862218C1F600849E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E2556C2218C1F400849E5B /* waterbender */;
+			targetProxy = 52E255852218C1F600849E5B /* PBXContainerItemProxy */;
+		};
+		52E255912218C1F600849E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E2556C2218C1F400849E5B /* waterbender */;
+			targetProxy = 52E255902218C1F600849E5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52E255742218C1F400849E5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E255752218C1F400849E5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52E2557C2218C1F500849E5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E2557D2218C1F500849E5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52E255962218C1F600849E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52E255972218C1F600849E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52E255992218C1F600849E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waterbender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = inky.waterbender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52E2559A2218C1F600849E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waterbender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = inky.waterbender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52E2559C2218C1F600849E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waterbenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = inky.waterbenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterbender.app/waterbender";
+			};
+			name = Debug;
+		};
+		52E2559D2218C1F600849E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waterbenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = inky.waterbenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterbender.app/waterbender";
+			};
+			name = Release;
+		};
+		52E2559F2218C1F600849E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waterbenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = inky.waterbenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = waterbender;
+			};
+			name = Debug;
+		};
+		52E255A02218C1F600849E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = waterbenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = inky.waterbenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = waterbender;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E255682218C1F400849E5B /* Build configuration list for PBXProject "waterbender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E255962218C1F600849E5B /* Debug */,
+				52E255972218C1F600849E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E255982218C1F600849E5B /* Build configuration list for PBXNativeTarget "waterbender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E255992218C1F600849E5B /* Debug */,
+				52E2559A2218C1F600849E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E2559B2218C1F600849E5B /* Build configuration list for PBXNativeTarget "waterbenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E2559C2218C1F600849E5B /* Debug */,
+				52E2559D2218C1F600849E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E2559E2218C1F600849E5B /* Build configuration list for PBXNativeTarget "waterbenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E2559F2218C1F600849E5B /* Debug */,
+				52E255A02218C1F600849E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52E255772218C1F400849E5B /* waterbender.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52E255782218C1F400849E5B /* waterbender.xcdatamodel */,
+			);
+			currentVersion = 52E255782218C1F400849E5B /* waterbender.xcdatamodel */;
+			path = waterbender.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52E255652218C1F400849E5B /* Project object */;
+}
