@@ -18,13 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sea" translatesAutoresizingMaskIntoConstraints="NO" id="ZRC-OS-TNF">
+                            <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea" translatesAutoresizingMaskIntoConstraints="NO" id="ZRC-OS-TNF">
                                 <rect key="frame" x="0.0" y="247" width="392" height="438"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOx-AJ-uko" userLabel="monthly-button">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOx-AJ-uko" userLabel="monthly-button">
                                 <rect key="frame" x="124" y="125" width="128" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="raindrop - large">
                                     <color key="titleColor" red="0.43506543795675601" green="0.61931467782586502" blue="0.83193005181347157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -60,37 +58,65 @@
                                 <color key="textColor" red="0.45810852149999998" green="0.67413848639999996" blue="0.83193005180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="monthly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NB2-dH-idJ">
-                                <rect key="frame" x="157" y="261" width="62" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="monthly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NB2-dH-idJ">
+                                <rect key="frame" x="156.5" y="261" width="62" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.45810852149999998" green="0.67413848639999996" blue="0.83193005180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ec7-zR-76c">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ec7-zR-76c">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <navigationBar hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5V3-jZ-QiE">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <items>
-                                            <navigationItem title="Monthly" id="em8-bP-v3G"/>
-                                        </items>
-                                    </navigationBar>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dlo-0o-Zh2">
+                                        <rect key="frame" x="149.5" y="442" width="76" height="30"/>
+                                        <state key="normal" title="Randomize"/>
+                                        <connections>
+                                            <action selector="randomize:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f71-2T-8cj"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v0I-Xu-gUb" customClass="LineChartView" customModule="Charts">
+                                        <rect key="frame" x="8" y="99" width="359" height="284"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="284" id="A3G-8k-ZwM"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="v0I-Xu-gUb" secondAttribute="trailing" constant="8" id="1ft-bj-IFB"/>
+                                    <constraint firstItem="Dlo-0o-Zh2" firstAttribute="top" secondItem="v0I-Xu-gUb" secondAttribute="bottom" constant="59" id="UiU-7A-Do9"/>
+                                    <constraint firstItem="v0I-Xu-gUb" firstAttribute="leading" secondItem="ec7-zR-76c" secondAttribute="leading" constant="8" id="cKm-Rl-mio"/>
+                                    <constraint firstItem="v0I-Xu-gUb" firstAttribute="centerX" secondItem="Dlo-0o-Zh2" secondAttribute="centerX" id="wEP-Dq-ffK"/>
+                                    <constraint firstItem="v0I-Xu-gUb" firstAttribute="top" secondItem="ec7-zR-76c" secondAttribute="top" constant="99" id="wm7-iF-Llk"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.85057240724563599" green="0.90531498193740845" blue="0.95793229341506958" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sOx-AJ-uko" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="105" id="7pB-eh-pNJ"/>
+                            <constraint firstItem="ec7-zR-76c" firstAttribute="centerX" secondItem="sOx-AJ-uko" secondAttribute="centerX" id="ApA-RR-9of"/>
+                            <constraint firstItem="ec7-zR-76c" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Gt3-4m-CQ3"/>
+                            <constraint firstItem="ec7-zR-76c" firstAttribute="centerX" secondItem="NB2-dH-idJ" secondAttribute="centerX" id="JN9-zL-aMM"/>
+                            <constraint firstItem="ec7-zR-76c" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UY4-iV-0gu"/>
+                            <constraint firstItem="ZRC-OS-TNF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="227" id="XYN-fK-QdW"/>
+                            <constraint firstItem="ec7-zR-76c" firstAttribute="leading" secondItem="ZRC-OS-TNF" secondAttribute="leading" id="aBX-Ql-Gc0"/>
+                            <constraint firstAttribute="trailing" secondItem="ec7-zR-76c" secondAttribute="trailing" id="aLC-Yr-g9C"/>
+                            <constraint firstItem="ec7-zR-76c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="c8m-25-0VJ"/>
+                            <constraint firstItem="sOx-AJ-uko" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="124" id="jRO-ZC-1cG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZRC-OS-TNF" secondAttribute="trailing" constant="-33" id="lt4-wN-Qpj"/>
+                            <constraint firstItem="NB2-dH-idJ" firstAttribute="top" secondItem="sOx-AJ-uko" secondAttribute="bottom" constant="8" symbolic="YES" id="sfm-S9-RrY"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ZRC-OS-TNF" secondAttribute="bottom" constant="-18" id="zmo-ng-Id2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="dailyBtn" destination="2Iv-Oe-egx" id="2ay-Uk-Lh6"/>
                         <outlet property="dailyLbl" destination="Mo5-G1-mNL" id="yQA-b8-ERS"/>
+                        <outlet property="linechartView" destination="v0I-Xu-gUb" id="dFG-vS-WCF"/>
                         <outlet property="monthlyBtn" destination="sOx-AJ-uko" id="yBJ-91-Nxb"/>
                         <outlet property="monthlyHolder" destination="ec7-zR-76c" id="1fF-hA-lON"/>
                         <outlet property="monthlyLbl" destination="NB2-dH-idJ" id="SxF-cE-JH6"/>
-                        <outlet property="monthlyNav" destination="5V3-jZ-QiE" id="wQ1-et-5od"/>
                         <outlet property="sea" destination="ZRC-OS-TNF" id="4WK-V2-Ef8"/>
                         <outlet property="weaklyBtn" destination="xWZ-0d-8eT" id="feK-Ko-Ffj"/>
                         <outlet property="weaklyLbl" destination="9VE-kC-FTq" id="7ry-LB-yVv"/>
