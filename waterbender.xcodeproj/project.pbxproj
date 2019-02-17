@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B8C455592A92E1D1DB6FA05 /* Pods_waterbenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998107CEF7394FDC97BCFF21 /* Pods_waterbenderTests.framework */; };
+		520CBB662219EABF00AE92A3 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 520CBB642219EABF00AE92A3 /* data.txt */; };
 		523248A42219E0A000538FB2 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523248A12219E06700538FB2 /* Charts.framework */; };
 		523248A52219E0A000538FB2 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 523248A12219E06700538FB2 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5234704E2218FD3600F9B7BF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5234704D2218FD3600F9B7BF /* Launch Screen.storyboard */; };
@@ -80,6 +81,7 @@
 
 /* Begin PBXFileReference section */
 		0A998AB97F0FD30288D17DF1 /* Pods_waterbenderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waterbenderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		520CBB642219EABF00AE92A3 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 		5232489B2219E06700538FB2 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../Downloads/Charts-master 2/Charts.xcodeproj"; sourceTree = "<group>"; };
 		5234704D2218FD3600F9B7BF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		52347056221901DF00F9B7BF /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				52E255702218C1F400849E5B /* AppDelegate.swift */,
+				520CBB642219EABF00AE92A3 /* data.txt */,
 				52E255722218C1F400849E5B /* ViewController.swift */,
 				5234705822195ED800F9B7BF /* DailyViewController.swift */,
 				5234704D2218FD3600F9B7BF /* Launch Screen.storyboard */,
@@ -250,7 +253,6 @@
 				9CC77C16C1DE868BE51E833B /* Pods-waterbenderUITests.debug.xcconfig */,
 				C451FED71249AB545387F6EA /* Pods-waterbenderUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -391,6 +393,7 @@
 				52347057221901DF00F9B7BF /* View.xib in Resources */,
 				52E2557B2218C1F500849E5B /* Assets.xcassets in Resources */,
 				5234704E2218FD3600F9B7BF /* Launch Screen.storyboard in Resources */,
+				520CBB662219EABF00AE92A3 /* data.txt in Resources */,
 				52E255762218C1F400849E5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

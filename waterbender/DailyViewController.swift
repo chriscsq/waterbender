@@ -35,6 +35,8 @@ class DailyViewController: UIViewController {
         
         totalWaterUsage = [showerUsage, faucetUsage, toiletUsage]
         
+        readDataFromFile(file: "data")
+        
         updateChartData()
 
     }
@@ -91,6 +93,7 @@ class DailyViewController: UIViewController {
             }
         do {
             let contents = try String(contentsOfFile:  filepath)
+            print(contents)
             return contents
         }catch{
             print("File Read error for this path")
