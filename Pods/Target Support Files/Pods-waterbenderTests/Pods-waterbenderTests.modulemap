@@ -1,0 +1,6 @@
+framework module Pods_waterbenderTests {
+  umbrella header "Pods-waterbenderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -69,8 +69,8 @@
                                     <segue destination="YdP-wc-wCu" kind="show" id="Bdt-VT-DbH"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sea" translatesAutoresizingMaskIntoConstraints="NO" id="ZRC-OS-TNF">
-                                <rect key="frame" x="-17" y="439" width="409" height="405"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea" translatesAutoresizingMaskIntoConstraints="NO" id="ZRC-OS-TNF">
+                                <rect key="frame" x="-24" y="485" width="409" height="405"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="405" id="1za-lv-kdU"/>
                                 </constraints>
@@ -187,13 +187,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8P-ei-qi2">
-                                <rect key="frame" x="362" y="54" width="24" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="blood (1)">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                            </button>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="vTv-FJ-c3D">
                                 <rect key="frame" x="168" y="705" width="39" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -204,6 +197,11 @@
                                 <color key="textColor" red="0.45810852149999998" green="0.67413848639999996" blue="0.83193005180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4l0-HF-nGv" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="67" y="217" width="241" height="239"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.85057240724563599" green="0.90531498193740845" blue="0.95793229341506958" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -213,6 +211,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mtR-mF-f3z"/>
                     </view>
+                    <connections>
+                        <outlet property="pie_chart" destination="4l0-HF-nGv" id="kk5-V8-SHS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aXQ-wo-zrD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="yzy-qx-hBX">
@@ -225,7 +226,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="blood (1)" width="24" height="24"/>
         <image name="raindrop - large" width="279.27273559570312" height="279.27273559570312"/>
         <image name="raindrop - small" width="32" height="32"/>
         <image name="sea" width="409.60000610351562" height="409.60000610351562"/>

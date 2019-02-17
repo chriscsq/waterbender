@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B8C455592A92E1D1DB6FA05 /* Pods_waterbenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998107CEF7394FDC97BCFF21 /* Pods_waterbenderTests.framework */; };
+		523248A42219E0A000538FB2 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523248A12219E06700538FB2 /* Charts.framework */; };
+		523248A52219E0A000538FB2 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 523248A12219E06700538FB2 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5234704E2218FD3600F9B7BF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5234704D2218FD3600F9B7BF /* Launch Screen.storyboard */; };
 		52347057221901DF00F9B7BF /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52347056221901DF00F9B7BF /* View.xib */; };
 		5234705922195ED800F9B7BF /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234705822195ED800F9B7BF /* DailyViewController.swift */; };
@@ -19,9 +22,32 @@
 		52E2557B2218C1F500849E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E2557A2218C1F500849E5B /* Assets.xcassets */; };
 		52E255892218C1F600849E5B /* waterbenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255882218C1F600849E5B /* waterbenderTests.swift */; };
 		52E255942218C1F600849E5B /* waterbenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255932218C1F600849E5B /* waterbenderUITests.swift */; };
+		B0BC53837E7EA84B734483B7 /* Pods_waterbenderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A998AB97F0FD30288D17DF1 /* Pods_waterbenderUITests.framework */; };
+		DF2E3BC3EE545912118AB421 /* Pods_waterbender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F9F618BE5F6C0830E17B06 /* Pods_waterbender.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		523248A02219E06700538FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5232489B2219E06700538FB2 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		523248A22219E06700538FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5232489B2219E06700538FB2 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		523248A62219E0A000538FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5232489B2219E06700538FB2 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
 		52E255852218C1F600849E5B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 52E255652218C1F400849E5B /* Project object */;
@@ -38,7 +64,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5254B8C32219CED2002E882F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				523248A52219E0A000538FB2 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0A998AB97F0FD30288D17DF1 /* Pods_waterbenderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waterbenderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5232489B2219E06700538FB2 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../Downloads/Charts-master 2/Charts.xcodeproj"; sourceTree = "<group>"; };
 		5234704D2218FD3600F9B7BF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		52347056221901DF00F9B7BF /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		5234705822195ED800F9B7BF /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +99,14 @@
 		52E2558F2218C1F600849E5B /* waterbenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterbenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E255932218C1F600849E5B /* waterbenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterbenderUITests.swift; sourceTree = "<group>"; };
 		52E255952218C1F600849E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C272766DA2902E1A45D5F8 /* Pods-waterbenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterbenderTests.release.xcconfig"; path = "Target Support Files/Pods-waterbenderTests/Pods-waterbenderTests.release.xcconfig"; sourceTree = "<group>"; };
+		97D1433C27BC1A6595D73E24 /* Pods-waterbenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterbenderTests.debug.xcconfig"; path = "Target Support Files/Pods-waterbenderTests/Pods-waterbenderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		998107CEF7394FDC97BCFF21 /* Pods_waterbenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waterbenderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC77C16C1DE868BE51E833B /* Pods-waterbenderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterbenderUITests.debug.xcconfig"; path = "Target Support Files/Pods-waterbenderUITests/Pods-waterbenderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C451FED71249AB545387F6EA /* Pods-waterbenderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterbenderUITests.release.xcconfig"; path = "Target Support Files/Pods-waterbenderUITests/Pods-waterbenderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D3F9F618BE5F6C0830E17B06 /* Pods_waterbender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waterbender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB40442CD3994DE545638586 /* Pods-waterbender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterbender.debug.xcconfig"; path = "Target Support Files/Pods-waterbender/Pods-waterbender.debug.xcconfig"; sourceTree = "<group>"; };
+		F8BDD038BD136A4A64E7894E /* Pods-waterbender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterbender.release.xcconfig"; path = "Target Support Files/Pods-waterbender/Pods-waterbender.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF2E3BC3EE545912118AB421 /* Pods_waterbender.framework in Frameworks */,
+				523248A42219E0A000538FB2 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8C455592A92E1D1DB6FA05 /* Pods_waterbenderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +131,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0BC53837E7EA84B734483B7 /* Pods_waterbenderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36FBF32D8EFD79D063312F32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3F9F618BE5F6C0830E17B06 /* Pods_waterbender.framework */,
+				998107CEF7394FDC97BCFF21 /* Pods_waterbenderTests.framework */,
+				0A998AB97F0FD30288D17DF1 /* Pods_waterbenderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5232489C2219E06700538FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				523248A12219E06700538FB2 /* Charts.framework */,
+				523248A32219E06700538FB2 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		52347053221901B300F9B7BF /* daily */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +182,7 @@
 		52E255642218C1F400849E5B = {
 			isa = PBXGroup;
 			children = (
+				5232489B2219E06700538FB2 /* Charts.xcodeproj */,
 				52347055221901CB00F9B7BF /* monthly */,
 				52347054221901C600F9B7BF /* weekly */,
 				52347053221901B300F9B7BF /* daily */,
@@ -116,6 +190,8 @@
 				52E255872218C1F600849E5B /* waterbenderTests */,
 				52E255922218C1F600849E5B /* waterbenderUITests */,
 				52E2556E2218C1F400849E5B /* Products */,
+				36FBF32D8EFD79D063312F32 /* Frameworks */,
+				62172CB20F770A156FAB7209 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +240,20 @@
 			path = waterbenderUITests;
 			sourceTree = "<group>";
 		};
+		62172CB20F770A156FAB7209 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB40442CD3994DE545638586 /* Pods-waterbender.debug.xcconfig */,
+				F8BDD038BD136A4A64E7894E /* Pods-waterbender.release.xcconfig */,
+				97D1433C27BC1A6595D73E24 /* Pods-waterbenderTests.debug.xcconfig */,
+				92C272766DA2902E1A45D5F8 /* Pods-waterbenderTests.release.xcconfig */,
+				9CC77C16C1DE868BE51E833B /* Pods-waterbenderUITests.debug.xcconfig */,
+				C451FED71249AB545387F6EA /* Pods-waterbenderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,13 +261,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52E255982218C1F600849E5B /* Build configuration list for PBXNativeTarget "waterbender" */;
 			buildPhases = (
+				E3B2F2FA9B2F820EAAF0AA93 /* [CP] Check Pods Manifest.lock */,
 				52E255692218C1F400849E5B /* Sources */,
 				52E2556A2218C1F400849E5B /* Frameworks */,
 				52E2556B2218C1F400849E5B /* Resources */,
+				5254B8C32219CED2002E882F /* Embed Frameworks */,
+				3257E71C97B605943D883DD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				523248A72219E0A000538FB2 /* PBXTargetDependency */,
 			);
 			name = waterbender;
 			productName = waterbender;
@@ -188,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52E2559B2218C1F600849E5B /* Build configuration list for PBXNativeTarget "waterbenderTests" */;
 			buildPhases = (
+				5AC44FCA278801CEB2081751 /* [CP] Check Pods Manifest.lock */,
 				52E255802218C1F600849E5B /* Sources */,
 				52E255812218C1F600849E5B /* Frameworks */,
 				52E255822218C1F600849E5B /* Resources */,
@@ -206,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52E2559E2218C1F600849E5B /* Build configuration list for PBXNativeTarget "waterbenderUITests" */;
 			buildPhases = (
+				2E368AE4F8E3E41B3B70F427 /* [CP] Check Pods Manifest.lock */,
 				52E2558B2218C1F600849E5B /* Sources */,
 				52E2558C2218C1F600849E5B /* Frameworks */,
 				52E2558D2218C1F600849E5B /* Resources */,
@@ -254,6 +350,12 @@
 			mainGroup = 52E255642218C1F400849E5B;
 			productRefGroup = 52E2556E2218C1F400849E5B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5232489C2219E06700538FB2 /* Products */;
+					ProjectRef = 5232489B2219E06700538FB2 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				52E2556C2218C1F400849E5B /* waterbender */,
@@ -262,6 +364,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		523248A12219E06700538FB2 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 523248A02219E06700538FB2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		523248A32219E06700538FB2 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 523248A22219E06700538FB2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		52E2556B2218C1F400849E5B /* Resources */ = {
@@ -291,6 +410,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E368AE4F8E3E41B3B70F427 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waterbenderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3257E71C97B605943D883DD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-waterbender/Pods-waterbender-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-waterbender/Pods-waterbender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC44FCA278801CEB2081751 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waterbenderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B2F2FA9B2F820EAAF0AA93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waterbender-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		52E255692218C1F400849E5B /* Sources */ = {
@@ -324,6 +534,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		523248A72219E0A000538FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 523248A62219E0A000538FB2 /* PBXContainerItemProxy */;
+		};
 		52E255862218C1F600849E5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 52E2556C2218C1F400849E5B /* waterbender */;
@@ -464,7 +679,9 @@
 		};
 		52E255992218C1F600849E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB40442CD3994DE545638586 /* Pods-waterbender.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = waterbender/Info.plist;
@@ -474,14 +691,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = inky.waterbender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		52E2559A2218C1F600849E5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BDD038BD136A4A64E7894E /* Pods-waterbender.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = waterbender/Info.plist;
@@ -491,13 +710,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = inky.waterbender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		52E2559C2218C1F600849E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D1433C27BC1A6595D73E24 /* Pods-waterbenderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +738,7 @@
 		};
 		52E2559D2218C1F600849E5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C272766DA2902E1A45D5F8 /* Pods-waterbenderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +759,7 @@
 		};
 		52E2559F2218C1F600849E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC77C16C1DE868BE51E833B /* Pods-waterbenderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +779,7 @@
 		};
 		52E255A02218C1F600849E5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C451FED71249AB545387F6EA /* Pods-waterbenderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
