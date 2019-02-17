@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5234704E2218FD3600F9B7BF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5234704D2218FD3600F9B7BF /* Launch Screen.storyboard */; };
+		52347057221901DF00F9B7BF /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52347056221901DF00F9B7BF /* View.xib */; };
 		52E255712218C1F400849E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255702218C1F400849E5B /* AppDelegate.swift */; };
 		52E255732218C1F400849E5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255722218C1F400849E5B /* ViewController.swift */; };
 		52E255762218C1F400849E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E255742218C1F400849E5B /* Main.storyboard */; };
 		52E255792218C1F400849E5B /* waterbender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52E255772218C1F400849E5B /* waterbender.xcdatamodeld */; };
 		52E2557B2218C1F500849E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E2557A2218C1F500849E5B /* Assets.xcassets */; };
-		52E2557E2218C1F500849E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E2557C2218C1F500849E5B /* LaunchScreen.storyboard */; };
 		52E255892218C1F600849E5B /* waterbenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255882218C1F600849E5B /* waterbenderTests.swift */; };
 		52E255942218C1F600849E5B /* waterbenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E255932218C1F600849E5B /* waterbenderUITests.swift */; };
 /* End PBXBuildFile section */
@@ -35,13 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5234704D2218FD3600F9B7BF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		52347056221901DF00F9B7BF /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		52E2556D2218C1F400849E5B /* waterbender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterbender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E255702218C1F400849E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E255722218C1F400849E5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52E255752218C1F400849E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52E255782218C1F400849E5B /* waterbender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = waterbender.xcdatamodel; sourceTree = "<group>"; };
 		52E2557A2218C1F500849E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		52E2557D2218C1F500849E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E2557F2218C1F500849E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E255842218C1F600849E5B /* waterbenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterbenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E255882218C1F600849E5B /* waterbenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterbenderTests.swift; sourceTree = "<group>"; };
@@ -76,9 +78,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52347053221901B300F9B7BF /* daily */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = daily;
+			sourceTree = "<group>";
+		};
+		52347054221901C600F9B7BF /* weekly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = weekly;
+			sourceTree = "<group>";
+		};
+		52347055221901CB00F9B7BF /* monthly */ = {
+			isa = PBXGroup;
+			children = (
+				52347056221901DF00F9B7BF /* View.xib */,
+			);
+			path = monthly;
+			sourceTree = "<group>";
+		};
 		52E255642218C1F400849E5B = {
 			isa = PBXGroup;
 			children = (
+				52347055221901CB00F9B7BF /* monthly */,
+				52347054221901C600F9B7BF /* weekly */,
+				52347053221901B300F9B7BF /* daily */,
 				52E2556F2218C1F400849E5B /* waterbender */,
 				52E255872218C1F600849E5B /* waterbenderTests */,
 				52E255922218C1F600849E5B /* waterbenderUITests */,
@@ -101,9 +128,9 @@
 			children = (
 				52E255702218C1F400849E5B /* AppDelegate.swift */,
 				52E255722218C1F400849E5B /* ViewController.swift */,
+				5234704D2218FD3600F9B7BF /* Launch Screen.storyboard */,
 				52E255742218C1F400849E5B /* Main.storyboard */,
 				52E2557A2218C1F500849E5B /* Assets.xcassets */,
-				52E2557C2218C1F500849E5B /* LaunchScreen.storyboard */,
 				52E2557F2218C1F500849E5B /* Info.plist */,
 				52E255772218C1F400849E5B /* waterbender.xcdatamodeld */,
 			);
@@ -232,8 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E2557E2218C1F500849E5B /* LaunchScreen.storyboard in Resources */,
+				52347057221901DF00F9B7BF /* View.xib in Resources */,
 				52E2557B2218C1F500849E5B /* Assets.xcassets in Resources */,
+				5234704E2218FD3600F9B7BF /* Launch Screen.storyboard in Resources */,
 				52E255762218C1F400849E5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +331,6 @@
 				52E255752218C1F400849E5B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		52E2557C2218C1F500849E5B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52E2557D2218C1F500849E5B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
