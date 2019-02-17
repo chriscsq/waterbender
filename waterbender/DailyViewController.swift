@@ -83,5 +83,19 @@ class DailyViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func readDataFromFile(file: String) -> String! {
+        guard let filepath = Bundle.main.path(forResource: file, ofType:"txt")
+            else{
+                return nil
+            }
+        do {
+            let contents = try String(contentsOfFile:  filepath)
+            return contents
+        }catch{
+            print("File Read error for this path")
+            return nil
+        }
+    }
 
 }

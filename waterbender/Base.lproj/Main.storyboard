@@ -69,8 +69,8 @@
                                     <segue destination="YdP-wc-wCu" kind="show" id="Bdt-VT-DbH"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea" translatesAutoresizingMaskIntoConstraints="NO" id="ZRC-OS-TNF">
-                                <rect key="frame" x="-24" y="485" width="409" height="405"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sea" translatesAutoresizingMaskIntoConstraints="NO" id="ZRC-OS-TNF">
+                                <rect key="frame" x="-48" y="425" width="512" height="405"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="405" id="1za-lv-kdU"/>
                                 </constraints>
@@ -226,11 +226,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="raindrop - large" width="279.27273559570312" height="279.27273559570312"/>
+        <image name="raindrop - large" width="128" height="128"/>
         <image name="raindrop - small" width="32" height="32"/>
-        <image name="sea" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="sea" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="koj-be-4kA"/>
+        <segue reference="Gi7-nJ-W2V"/>
     </inferredMetricsTieBreakers>
 </document>
